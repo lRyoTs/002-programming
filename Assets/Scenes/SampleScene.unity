@@ -158,6 +158,8 @@ MonoBehaviour:
   playerAge: 23
   playerUser: ElHeeHee
   isGameOver: 0
+  message: Hello World!
+  point: 256
 --- !u!65 &2967767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -481,6 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheels: 4
+  name: Car
 --- !u!1 &458500517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,7 +1583,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2566b7cdfe1f1f840b191e3182f8a626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheels: 4
+  wheels: 2
+  name: Moto
 --- !u!1 &1477290132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,3 +2219,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wheels: 4
+  name: Bus

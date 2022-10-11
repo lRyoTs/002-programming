@@ -13,4 +13,14 @@ public class MyFirstScript : MonoBehaviour
     private float playerSpeed = 3.123f;
     public string playerUser = "ElHeeHee"; //player's nickname
     [SerializeField] private bool isGameOver = false; //Has the player lost?
+    public string message = "Hello World!\n";
+    public int point = 256;
+
+    private void Start()
+    {
+        Debug.Log(message);
+        //Debug.Log("Your score: " + point +" points\n"); //Another way to concatane string and variables
+        //Debug.Log($"Your actual score: {point} points\n"); //Way to concatane string and other variable
+        Debug.Log(string.Format("Hello {0}, your score is {1}\n", playerUser, point)); //way to concatane string and variable using string.Format
+    }
 }
