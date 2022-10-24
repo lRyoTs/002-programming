@@ -614,6 +614,7 @@ MonoBehaviour:
   wheels: 4
   name: Car
   isOn: 1
+  sound: Brum brum
 --- !u!1 &458500517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,6 +1717,7 @@ MonoBehaviour:
   wheels: 2
   name: Moto
   isOn: 0
+  sound: 
 --- !u!1 &1477290132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,3 +2354,4 @@ MonoBehaviour:
   wheels: 4
   name: Bus
   isOn: 1
+  sound: 
