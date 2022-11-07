@@ -231,7 +231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2967765}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3497815, y: 0.42000002, z: 0.10299009}
+  m_LocalPosition: {x: -1.1717399, y: 0.42000002, z: -13.969022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -441,7 +441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199802270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3497815, y: 0.42000002, z: 2.472}
+  m_LocalPosition: {x: -3.5278254, y: 0.42000002, z: -13.721967}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -586,7 +586,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441073061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.16, y: 0.002, z: 0.03953147}
+  m_LocalPosition: {x: 8.74, y: -0.18, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -617,6 +617,7 @@ MonoBehaviour:
   sound: Brum brum
   gasoline: 8.25
   lowGas: 12
+  canGetBigger: 1
 --- !u!1 &458500517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,7 +1468,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 2.28, y: 2.944, z: -22.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1693,8 +1694,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430364913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.801, y: -0.018, z: 0.20215}
-  m_LocalScale: {x: 0.75251, y: 0.75251, z: 0.75251}
+  m_LocalPosition: {x: -10.72, y: 0.12, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 292135729}
@@ -1722,6 +1723,7 @@ MonoBehaviour:
   sound: 
   gasoline: 22.9
   lowGas: 10
+  canGetBigger: 1
 --- !u!1 &1477290132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,14 +2202,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022782848}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1502188, y: -0.08, z: -0.39700985}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.004836893, y: 0.000002003871, z: -0.007264881, w: 0.9999619}
+  m_LocalPosition: {x: 1.1502, y: -0.080000006, z: -0.39700985}
+  m_LocalScale: {x: 9.0345, y: 9.0345, z: 9.0345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.554, y: -0.004, z: -0.833}
 --- !u!1 &2056645122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,8 +2332,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110924059}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4949, y: 0.02, z: 0.035793}
-  m_LocalScale: {x: 1.0088, y: 1.0088, z: 1.0088}
+  m_LocalPosition: {x: -1.44, y: 0.02, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 681696781}
@@ -2361,3 +2363,4 @@ MonoBehaviour:
   sound: 
   gasoline: 49.75
   lowGas: 100
+  canGetBigger: 1

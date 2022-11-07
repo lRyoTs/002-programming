@@ -11,12 +11,11 @@ public class Vehicle : MonoBehaviour
     public string sound; //Vehicle sound
     [SerializeField] private float gasoline; //Stores the current value of gasoline
     [SerializeField] private float lowGas; //Indicates if the gasoline lower than this value
-
+    public bool canGetBigger = true;
 
     private void Start()
     {
         //Debug.Log($"The {name} has {wheels} wheels");
-
         if (!isOn)
         {
             Debug.Log($"{name} is off");
@@ -40,6 +39,20 @@ public class Vehicle : MonoBehaviour
             }
             else { 
                 Debug.Log($"The {name} has {gasoline} L of gasoline");
+            }
+        }
+    }
+
+    //Updates every frame
+    private void Update()
+    {
+        if (canGetBigger) {
+            if (Input.GetMouseButtonDown(0))
+            {
+                transform.localScale += Vector3.one;
+            }
+            else if (Input.GetMouseButtonDown(1)) {
+                transform.localScale -= Vector3.one;
             }
         }
     }
